@@ -1,3 +1,6 @@
 [submodule "LDAK-Heritability-Calculation"]
 	path = LDAK-Heritability-Calculation
 	url = https://github.com/GooLey1025/LDAK-Heritability-Calculation
+[submodule "GATK-DELLY-VariantsCalling"]
+	path = GATK-DELLY-VariantsCalling
+	url = https://github.com/GooLey1025/GATK-DELLY-VariantsCalling
