@@ -4,3 +4,6 @@
 [submodule "GATK-DELLY-VariantsCalling"]
 	path = GATK-DELLY-VariantsCalling
 	url = https://github.com/GooLey1025/GATK-DELLY-VariantsCalling
+[submodule "GWAS-LD_Markers-Discovery"]
+	path = GWAS-LD_Markers-Discovery
+	url = https://github.com/GooLey1025/GWAS-LD_Markers-Discovery
