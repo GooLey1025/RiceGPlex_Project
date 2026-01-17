@@ -7,3 +7,6 @@
 [submodule "GWAS-LD_Markers-Discovery"]
 	path = GWAS-LD_Markers-Discovery
 	url = https://github.com/GooLey1025/GWAS-LD_Markers-Discovery
+[submodule "GATK-DELLY-Allele_based-Genotyping"]
+	path = GATK-DELLY-Allele_based-Genotyping
+	url = https://github.com/GooLey1025/GATK-DELLY-Allele_based-Genotyping
