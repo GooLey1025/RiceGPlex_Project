@@ -10,3 +10,9 @@
 [submodule "GATK-DELLY-Allele_based-Genotyping"]
 	path = GATK-DELLY-Allele_based-Genotyping
 	url = https://github.com/GooLey1025/GATK-DELLY-Allele_based-Genotyping
+[submodule "VarsGT"]
+	path = VarsGT
+	url = https://github.com/GooLey1025/VarsGT
+[submodule "Aquila-GS"]
+	path = Aquila-GS
+	url = https://github.com/GooLey1025/Aquila-GS
