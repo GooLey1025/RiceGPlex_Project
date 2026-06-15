@@ -36,63 +36,20 @@ To overcome these limitations, RiceGPlex integrates multiple complementary compo
 
 ---
 
-## Repository Structure
+## Repository Modules
 
-```text
+**RiceGPlex** is organized as a collection of interoperable repositories, each responsible for a specific stage of the genomic prediction and breeding design workflow.
 
-RiceGPlex_Project
+| Repository | Description |
+|------------|------------|
+| **GATK-DELLY-VariantsCalling** | Variant calling pipeline from BAM files. Generates SNPs, INDELs, and SVs from bam files using GATK and DELLY. |
+| **VarsGT** | End-to-end genotyping workflow that converts raw sequencing reads into RiceGPlex-compatible genotype matrices. Supports graph pangenome alignment, SNP/INDEL/SV genotyping, genotype imputation, and marker-panel extraction. |
+| **GATK-DELLY-Allele_based-Genotyping** | Allele-based targeted genotyping workflow for predefined marker panels. This is a sub-module of **VarsGT**|
+| **GWAS-LD_Markers-Discovery** | Marker construction framework that integrates LD-pruned representative markers, GWAS lead variants, public GWAS resources, and RiceNavi QTNs to generate RiceGPlex marker panels. |
+| **LDAK-Heritability-Calculation** | Heritability estimation workflows based on LD-adjusted kinship models. Supports SNP-, INDEL-, SV-, and multi-variant heritability analyses. |
+| **Aquila-GS** | Deep learning framework for genomic selection. Implements allele-aware encoding, adaptive convolutional compression, multi-head self-attention, multi-task prediction, Integrated Gradients interpretation, and QTN-guided directed evolution. |
 
-├── GATK-DELLY-VariantsCalling
 
-│   ├── Linear-reference variant calling
+## Contact
 
-│   ├── Graph pangenome-based variant calling
-
-│   ├── SNP/INDEL discovery
-
-│   └── Structural variant discovery
-
-│
-
-├── GATK-DELLY-Allele_based-Genotyping
-
-│   ├── SNP/INDEL allele-based genotyping
-
-│   ├── SV allele-based genotyping
-
-│   ├── Marker-panel genotyping
-
-│   └── Population genotype matrix generation
-
-│
-
-├── GWAS-LD_Markers-Discovery
-
-│   ├── GWAS analysis
-
-│   ├── LD clumping
-
-│   ├── Public GWAS marker integration
-
-│   ├── RiceNavi QTN integration
-
-│   └── RiceGPlex marker panel construction
-
-│
-
-├── LDAK-Heritability-Calculation
-
-│   ├── LD-adjusted kinship construction
-
-│   ├── Single-variant-class heritability estimation
-
-│   ├── Multi-variant heritability estimation
-
-│   └── Variant contribution comparison
-
-│
-
-├── README.md
-
-└── .gitmodules
-
+For questions regarding workflow implementation, code reproduction, or other technical details, please contact Lei Gu at `goley04@foxmail.com`.
