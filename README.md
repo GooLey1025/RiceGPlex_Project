@@ -1,8 +1,8 @@
 # RiceGPlex Project
 
-**Pangenome-informed deep learning with functional priors for genomic prediction and breeding design in rice**
+***Pangenome-informed deep learning with functional priors for genomic prediction and breeding design in rice.***
 
-RiceGPlex is an integrated framework that bridges genomic prediction, model interpretability, and rational breeding design in rice. By combining graph pangenome variants, GWAS-derived markers, curated quantitative trait nucleotides (QTNs), and deep learning–based genomic selection, RiceGPlex extends conventional genomic selection from phenotype prediction to actionable breeding recommendations.  
+*RiceGPlex* is an integrated framework that bridges genomic prediction, model interpretability, and rational breeding design in rice. By combining graph pangenome variants, GWAS-derived markers, curated quantitative trait nucleotides (QTNs), and deep learning–based genomic selection, RiceGPlex extends conventional genomic selection from phenotype prediction to actionable breeding recommendations.  
 
 ---
 
