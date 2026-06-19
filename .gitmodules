@@ -1,18 +1,29 @@
 [submodule "LDAK-Heritability-Calculation"]
-	path = LDAK-Heritability-Calculation
-	url = https://github.com/GooLey1025/LDAK-Heritability-Calculation
+    path = LDAK-Heritability-Calculation
+    url = https://github.com/GooLey1025/LDAK-Heritability-Calculation
+    branch = main
+
 [submodule "GATK-DELLY-VariantsCalling"]
-	path = GATK-DELLY-VariantsCalling
-	url = https://github.com/GooLey1025/GATK-DELLY-VariantsCalling
+    path = GATK-DELLY-VariantsCalling
+    url = https://github.com/GooLey1025/GATK-DELLY-VariantsCalling
+    branch = main
+
 [submodule "GWAS-LD_Markers-Discovery"]
-	path = GWAS-LD_Markers-Discovery
-	url = https://github.com/GooLey1025/GWAS-LD_Markers-Discovery
+    path = GWAS-LD_Markers-Discovery
+    url = https://github.com/GooLey1025/GWAS-LD_Markers-Discovery
+    branch = main
+
 [submodule "GATK-DELLY-Allele_based-Genotyping"]
-	path = GATK-DELLY-Allele_based-Genotyping
-	url = https://github.com/GooLey1025/GATK-DELLY-Allele_based-Genotyping
+    path = GATK-DELLY-Allele_based-Genotyping
+    url = https://github.com/GooLey1025/GATK-DELLY-Allele_based-Genotyping
+    branch = main
+
 [submodule "VarsGT"]
-	path = VarsGT
-	url = https://github.com/GooLey1025/VarsGT
+    path = VarsGT
+    url = https://github.com/GooLey1025/VarsGT
+    branch = main
+
 [submodule "Aquila-GS"]
-	path = Aquila-GS
-	url = https://github.com/GooLey1025/Aquila-GS
+    path = Aquila-GS
+    url = https://github.com/GooLey1025/Aquila-GS
+    branch = main
