@@ -27,3 +27,8 @@
     path = Aquila-GS
     url = https://github.com/GooLey1025/Aquila-GS
     branch = main
+
+[submodule "Multi_Source_Marker_Panel_generation"]
+    path = Multi_Source_Marker_Panel_generation
+    url = https://github.com/GooLey1025/Multi_Source_Marker_Panel_generation
+    branch = main
